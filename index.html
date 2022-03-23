@@ -11,11 +11,6 @@
 <body>
   <!-- 1 - What elements my interface needs  -->
 
-  <div class="btn btn-primary btn-custom" onclick="addANumber(3)" > + 3 </div>
-  <div class="btn btn-primary btn-custom" onclick="addANumber(-3)" > - 3 </div>
-  <div class="btn btn-primary btn-custom" onclick="addANumber(15)" > + 15 </div>
-  <div class="btn btn-primary btn-custom" onclick="addANumber(9)" > + 9 </div>
-  <div class="btn btn-primary btn-custom" onclick="addANumber(-6)" > - 6 </div>
 
   <div class="counter">0</div>
   <h1>Target</h1>
@@ -24,12 +19,7 @@
   <h1>Turn</h1>
   <div class="turn"></div>
   <script>
-    // 1 - valorize variables  
-    // 2 - use document.querySelctor and innerHTML 
-
-
-    // I will write JS
-    // 2 - Find the data and store the variables
+    
     const audio = new Audio('sound.mp3')
     let count = 0
     let target= parseInt(Math.random() * 7) * 3
@@ -48,7 +38,6 @@
       audio.play()
       // a - what does happen to the data when this function is executed
       count = count + numberToAdd
-
       // b - update the HTML
       const counterEl = document.querySelector('.counter')
       counterEl.innerHTML = count
