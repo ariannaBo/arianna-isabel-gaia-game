@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- 1 - What elements my interface needs  -->
+  
 
 
   <div class="counter">0</div>
@@ -28,17 +28,18 @@
 
     const turnEl = document.querySelector('.turn')
     turnEl.innerHTML = person1
-    // let bool = false
+  
     const targetEl = document.querySelector('.target')
     targetEl.innerHTML = target
 
-    // 3 - Think about the actions of the application 
+   
     const addANumber = ( numberToAdd ) => {
       
       audio.play()
-      // a - what does happen to the data when this function is executed
+     
       count = count + numberToAdd
-      // b - update the HTML
+ 
+     
       const counterEl = document.querySelector('.counter')
       counterEl.innerHTML = count
 
@@ -49,7 +50,7 @@
       }
     }
 
-    // 4 - THINK ABOUT when the functions must be executed
+    
   </script>
 </body>
 </html>
