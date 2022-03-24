@@ -1,5 +1,5 @@
 body{
-    background-color:  var(--bs-pink);
+    background-image: "https://ak.picdn.net/shutterstock/videos/11381252/thumb/1.jpg">;
     text-align: center;
   }
   
@@ -12,7 +12,5 @@ body{
     margin: auto;
     border-radius: 50%;
   }
-  
-  .btn-custom{
-    background-color: var(--bs-teal);
+    
   }
