@@ -1,4 +1,6 @@
 body{
+    background-image:url(cloudybackground.webp);
+    text-align:center
   }
   body{image-orientation:url(hotbaloon.jpeg);
     text-align:center
@@ -13,6 +15,4 @@ body{
     font-size: 34px;
     margin: auto;
     border-radius: 50%;
-  }
-    
-  }
+
