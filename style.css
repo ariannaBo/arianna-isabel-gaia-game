@@ -1,6 +1,10 @@
 body{
   }
-  
+  body{image-orientation:url(hotbaloon.jpeg);
+    text-align:center
+  }
+
+
   .counter{
     background-color: var(--bs-yellow);
     width: 150px;
