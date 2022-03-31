@@ -11,52 +11,9 @@
 <body>
   
 
-<<<<<<< HEAD
+
   <div class="baloon">
     <img src="hotbaloon2.png" alt="">
   </div>
-=======
-  
-  <div class="counter">0</div>
-  <h1>Target</h1>
-  <div class="target"></div>
-
-  <h1>Turn</h1>
-  <div class="turn"></div>
-  <script>
-    
-    const audio = new Audio('sound.mp3')
-    let count = 0
-    let target= parseInt(Math.random() * 7) * 3
-    let person1 = prompt('Name of person 1')
-    let person2 = prompt('Name of person 2')
-
-    const turnEl = document.querySelector('.turn')
-    turnEl.innerHTML = person1
-  
-    const targetEl = document.querySelector('.target')
-    targetEl.innerHTML = target
-
-   
-    const addANumber = ( numberToAdd ) => {
-      
-      audio.play()
-     
-      count = count + numberToAdd
- 
-     
-      const counterEl = document.querySelector('.counter')
-      counterEl.innerHTML = count
-
-      if (turnEl.innerHTML == person1) {
-        turnEl.innerHTML = person2
-      } else{
-        turnEl.innerHTML = person1
-      }
-    }
-
-    
-  </script>
->>>>>>> 6b6a2dd7b48d3b3492fc58c42cb5930c1a0ae877
 </body>
 </html>
