@@ -2,9 +2,16 @@ body{
     background-image:url(cloudybackground.webp);
     text-align:center
   }
-  body{image-orientation:url(hotbaloon.jpeg);
+  body{image-orientation:url(hot\ air\ balloon\ .png);
     text-align:center
   }
+  body{image-orientation:url(play\ button.png);
+      text-align:center
+  }
+  body{image-orientation:url(raindrop.png);
+    text-align:top 
+  }
+   
 
 
   .counter{
@@ -15,4 +22,3 @@ body{
     font-size: 34px;
     margin: auto;
     border-radius: 50%;
-
