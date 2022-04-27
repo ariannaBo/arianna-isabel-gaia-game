@@ -13,6 +13,44 @@ body{
   }
    
 
+  .baloon{
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+ }
+
+.moving{
+  animation: baloonAnimation 6s forwards;
+}
+
+@keyframes baloonAnimation{
+  0%{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(00deg);
+  }
+  30%{
+    left: 80%;
+    top: 70%;
+    transform: translate(-50%,-50%) rotate(30deg);
+  }
+  60%{
+    left: 20%;
+    top: 70%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+  }
+  100%{
+    left: 20%;
+    top: 30%;    
+  }
+}
+
+  .baloon img{
+    width:100%
+  }
+
 
   .counter{
     background-color: var(--bs-yellow);
@@ -22,3 +60,4 @@ body{
     font-size: 34px;
     margin: auto;
     border-radius: 50%;
+  }
